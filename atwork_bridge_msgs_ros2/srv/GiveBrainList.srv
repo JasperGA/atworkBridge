@@ -1,0 +1,4 @@
+# service format to give brain the optimized task list
+string[] optimized_list # an optimized task list of instructions 
+---
+uint32 sucess # confirmation of receiving list

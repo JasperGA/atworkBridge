@@ -1,0 +1,7 @@
+int64 id
+int64 camera_feed
+---
+int64 x
+int64 y
+int64 theta
+int64 confidence

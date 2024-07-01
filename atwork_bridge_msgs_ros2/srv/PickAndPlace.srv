@@ -1,0 +1,5 @@
+int64 target_item
+float64 rotation_offset
+int64 interaction
+---
+int64 code

@@ -1,0 +1,7 @@
+int64 state
+int64 target_id
+int64 interaction_type
+bool rotating_workstation
+bool precision_flag
+---
+int64 success

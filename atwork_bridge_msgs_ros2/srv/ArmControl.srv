@@ -1,0 +1,6 @@
+# service format between arm_brain and brain nodes
+int32 arm_task_id  # 0 is pick up, 1 is place, 2 is pre pick, 3 is pre place, 4 arm goal confirmation, 5 is move
+int32 item_id  # int to indicate which object to perform operation
+float32 distance # (Request: Height of work station) (Response: value looked at after scan to move left or right along a workstation, -ve is left, +ve is right)
+---
+int32 success_id  # 0 means task failed, 1 indicates task is complete, 2 indicates sub system is still busy

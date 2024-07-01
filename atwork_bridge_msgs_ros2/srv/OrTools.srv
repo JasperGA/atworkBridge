@@ -1,0 +1,4 @@
+# service format between task optimizer and OR Tools Node
+uint8[] my_task_list # an optimized task list of instructions 
+---
+string[] masterlist # an optimized task list of instructions 
